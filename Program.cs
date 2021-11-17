@@ -18,9 +18,9 @@ namespace cs_con_odbc_csv_select
             // *************************************
             myConAccess = new OdbcConnection();
             myConAccess.ConnectionString =
-                // "Provider=MSDASQL;DSN=H-CSV";
+                "Provider=MSDASQL;DSN=H-CSV";
                 // $"Provider=MSDASQL;Driver={{Microsoft Access Text Driver (*.txt, *.csv)}};dbq={dbpath};";
-                $"Provider=MSDASQL;DSN=H-CSV;DATABASE={dbpath}";
+                // $"Provider=MSDASQL;DSN=H-CSV;DATABASE={dbpath}";
 
             // 接続を開く
             try
